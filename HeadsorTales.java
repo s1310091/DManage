@@ -30,9 +30,9 @@ public class HeadsorTales {
     System.out.println("Heads: " + heads + ", Tails: " + tails);
 
     if (heads > tails) {
-      System.out.println("You won!");
+      System.out.println(user_name + " won!");
     } else {
-      System.out.println("You lost.");
+      System.out.println(user_name + " lost.");
     }
   }
 
